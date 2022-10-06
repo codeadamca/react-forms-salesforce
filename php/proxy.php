@@ -36,7 +36,7 @@ foreach( $_REQUEST as $key=>$value ){
 rtrim( $fields_string, '&' );
 
 // Post data to the WebToLead
-$url = 'https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
+$url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
 
 $curl = curl_init($_server);
     curl_setopt($curl, CURLOPT_HEADER, false);

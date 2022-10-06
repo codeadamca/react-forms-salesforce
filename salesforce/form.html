@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebToLead</title>
+</head>
+<body>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+    <input type=hidden name="oid" value="YOUR_SALESFORCE_OID">
+    <input type=hidden name="retURL" value="YOUR_REDIRECT_URL">
+
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+    <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+    Subject:<textarea  id="00N4x00000ZT6K8" name="00N4x00000ZT6K8" rows="3" type="text" wrap="soft"></textarea><br>
+
+    Message:<textarea  id="00N4x00000ZT0OJ" name="00N4x00000ZT0OJ" rows="3" type="text" wrap="soft"></textarea><br>
+
+    <input type="submit" name="submit">
+
+</form>
+
+    
+</body>
+</html>
