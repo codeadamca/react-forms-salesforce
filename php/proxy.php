@@ -50,6 +50,6 @@ $curl = curl_init($url);
 $response = curl_exec($curl);
 curl_close($curl);
 
-print_r($response);
+// print_r($response);
 
 echo json_encode(array('status' => 'success'));
