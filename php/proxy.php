@@ -38,7 +38,7 @@ rtrim( $fields_string, '&' );
 // Post data to the WebToLead
 $url = 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
 
-$curl = curl_init($_server);
+$curl = curl_init($url);
     curl_setopt($curl, CURLOPT_HEADER, false);
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_POST,count($_REQUEST));
