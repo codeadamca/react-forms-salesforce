@@ -1,4 +1,4 @@
-# react-forms-salesforce
+# Salesforce API and a React Contact Form
 
 A basic example of submitting form data from a React.js form to the Salesforce WebToLead.
 
@@ -8,7 +8,9 @@ The Salesforce WebToLead form was intended to process an HTML form submission to
 
 You will need to update the .env file with your Salesforce OID  and redirect URL aong with updating the fetch URL to match the location of your proxy.php file. 
 
-## Tutorial Requirements:
+***
+
+## Repo Resources
 
 * [react-forms](https://github.com/codeadamca/react-forms)
 * [php-env](https://github.com/codeadamca/php-env)
