@@ -16,6 +16,7 @@ You will need to update the .env file with your Salesforce OID  and redirect URL
 * [php-env](https://github.com/codeadamca/php-env)
 * [Salesforce Web to lead](https://www.salesforce.com/ca/products/guide/lead-gen/web-to-lead/)
 
+<br>
 <a href="https://codeadam.ca">
-<img src="https://codeadam.ca/images/code-block.png" width="100">
+<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
 </a>
